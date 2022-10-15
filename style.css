@@ -39,7 +39,26 @@ div.header-links {
 }
 
 .info {
+   color: #4D2121;
+   height: 525px;
+   text-align: center;
+}
 
+.visit {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location {
+    color: #4D2121;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+img.img-loc {
+    width: auto;
+    height: 200px;
 }
 
 .quote {
@@ -56,6 +75,7 @@ div.header-links {
 
 img {
     width: 400px;
+    border-radius: 10px;
 
 }
 
@@ -83,7 +103,7 @@ button {
 }
 
 body {
-    background-color: #fcf4f4;
+    background-color: #f3d3d3;
     margin: 0;
     width: 85%;
     margin-left: auto;

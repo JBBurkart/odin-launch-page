@@ -1,22 +1,28 @@
 .header{
-    background-color: #E19191;
+    background-color: black;
     margin: 0;
     padding: 0px 300px;
     font-size: 16px;
-    color: #4D2121;
+    font-weight: bold;
+    color: #E19191;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.header h3 {
+    font-size: 24px;
+}
+
 div.header-links {
     display: flex;
     gap: 25px; 
+    color: #E19191;
 }
 
 .intro {
-    background-color: #E19191;
-    color: #4D2121;
+    background-color: black;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,8 +32,8 @@ div.header-links {
 
 }
 
-.header h3 {
-    font-size: 24px;
+.intro h2 {
+    color: #E19191;
 }
 
 .intro-text, 
@@ -90,7 +96,7 @@ img.img-loc {
     width: 50%;
     background-color: #783636;
     border-radius: 10px;
-    color: #E19191;
+    color: white;
     padding: 0 100px;
 }
 
@@ -101,8 +107,8 @@ img.img-loc {
 }
 
 .footer {
-    background-color: #E19191;
-    color: #4D2121;
+    background-color: black;
+    color: #E19191;
     padding: 1.5px;
     text-align: center;
 }
@@ -123,13 +129,14 @@ li {
 
 a {
     font-size: 14px;
-    color: #6E3030;
+    color: white;
     text-decoration: none;
+    font-weight: 300;
 }
 
 button {
-    background-color: #6E3030;
-    color: #E19191;
+    background-color: #E19191;
+    color: #4D2121;
     border-color: #783636;
     border-radius: 6px;
     width: 90px;
@@ -137,7 +144,7 @@ button {
 }
 
 body {
-    background-color: #f3d3d3;
+    background-color: white;
     margin: 0;
     width: 85%;
     margin-left: auto;

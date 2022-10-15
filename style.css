@@ -2,9 +2,8 @@
     background-color: #E19191;
     margin: 0;
     padding: 0px 300px;
-    font-size: 24px;
+    font-size: 16px;
     color: #4D2121;
-    font-family: 'Tahoma', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +17,6 @@ div.header-links {
 .intro {
     background-color: #E19191;
     color: #4D2121;
-    font-family: 'Tahoma', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +24,10 @@ div.header-links {
     padding: 0px 300px;
     gap: 100px
 
+}
+
+.header h3 {
+    font-size: 24px;
 }
 
 .intro-text, 
@@ -62,15 +64,47 @@ img.img-loc {
 }
 
 .quote {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 0 40px;
+    height: 250px;
+    color: #4D2121;
+    font-size: 18px;
+    background-color: #edbdbd;
 }
 
 .signup {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.look {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background-color: #783636;
+    border-radius: 10px;
+    color: #E19191;
+    padding: 0 100px;
+}
+
+.look button {
+    background-color: #E19191;
+    color: #4D2121;
+    font-size: 12px;
 }
 
 .footer {
-
+    background-color: #E19191;
+    color: #4D2121;
+    padding: 1.5px;
+    text-align: center;
 }
 
 img {
@@ -108,4 +142,5 @@ body {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Tahoma', sans-serif;
 }
